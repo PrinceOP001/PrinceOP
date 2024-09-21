@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem 3</title>
+    
+    <style>
+        h1 {
+            text-align: center;
+            background-color: lime;
+            border: 3px solid black;
+            border-radius : 0.5em;
+            padding: 5px;
+        }
+        .sub, .others, #S1{
+            background-color: gray;
+            border: 2px solid black;
+            padding: 7px;
+            border-radius : 0.5em;
+            margin: 5px;
+            width: 50vw;
+            height: 40px;
+            text-align: center;
+            transition: 500ms;
+        }
+        .hovers {
+            background-color: rgb(0, 0, 0, 0.5);
+            padding: 7px;
+            border-radius : 0.5em;
+            position: fixed;
+            left: 110%;
+            width: 50vw;
+            transition: 500ms;
+        }
+        .sub:hover>.hovers {
+            position: fixed;
+            left: 50vw;
+        }
+        .sub:hover, .others:hover {
+            width: 75vw;
+            background-color: crimson;
+        }
+        
+        #subjects, #moreOfSem3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.250);
+            margin: 20px 15px;
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        a.linkforsub {
+            display: block;
+            background-color: crimson;
+            box-shadow: 0px 0px 5px 2px black;
+            border-radius: 5px;
+            height: 40px;
+            width: 200px;
+            text-decoration: none;
+            color: black;
+            margin: 4px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <p>Hello</p>
+    <h1>New LJ Sem 3 database 👀</h1>
+
+    <div id="subjects">
+
+        <div class="sub" id="SubDS">Data Sturcture<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/138eDOtrPYJ5Uk65qk7toIPND_p03S3Wz">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1GMorzNfeNdsYJN743mZNLoOY1yERw021">QB</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1nHC0-iHCB1Cqv4g4hw-Fe9AP1tErlGLS">Codes</a>
+            </div>
+        </div>
+
+        <div class="sub" id="SubDBMS">DataBase Management System<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/12VbSETUoMS-_lDGBHPrsoNpgs0SNmykK">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1QJqHJtJXnOSO4-4I8Pd4LoqzjT1YGjPN">QB</a>
+            </div>
+        </div>
+
+        <div class="sub" id="SubPS">Probability & Statisctics<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1aaYZMVGz1oH8ogkQ5_5NDXpKxfJMv-mB">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1hWEl4fwf01QAPErKoBaLOJUTOsUcQ2RF">QB</a>
+            </div>
+        </div>
+
+        <div class="sub" id="SubDF">Digital Fundamentals<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1dl3pPBEpONx-jtq6ls0y9Oe-veCJXNm0">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1O7upeVzTPfJWKnNcCahcbGmhxCPWYUkw">QB</a>
+            </div>
+        </div>
+
+        <div class="sub" id="SubETC">Effective Technical Communication<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1MjRREJ-awhh9BnO6XrTbQc-9OjNPaGDY">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/14mnAOUFWe5GZ-70Nhrd8otGtDVPOCTV7">QB</a>
+            </div>
+        </div>
+
+        <div class="sub" id="SubIC">Indian Constitution<br><br>
+            <div class="hovers">
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1qS0_E-2lSycQIQC9GVolTiP4Kzdxj8pw">Notes</a>
+                <a class="linkforsub" href="https://drive.google.com/drive/folders/1Harb9aE3b66PDYwqQs4R-daVBNai7_my">QB</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="moreOfSem3">
+        <a href="https://drive.google.com/drive/folders/169O3-4p1zi93XnCJteH9DdL09Buh9kF7">
+            <div class="others">QB <br>Question Bank <i>Unit wise</i></div>
+        </a>
+        
+        <div class="others">GTU Syllabus</div>
+        <div class="others">Time Table</div>
+
+        <a href="https://drive.google.com/drive/folders/1gwFY7t0b8ygx4lNOvL_YFqqBdZTfmhst">
+            <div class="others">Google Drive : Sem 3</div>
+        </a>
+        
+    </div>
+
+</body>
+</html>
